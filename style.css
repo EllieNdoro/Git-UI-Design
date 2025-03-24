@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    height: 100vh;
+    background-color: #feb47b;
+}
+
+.maincontainer{
+    
+    height: 80%;
+    margin-top: 110px;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-left: 200px;
+    padding-right: 100px;
+
+}
+
+.inner{
+    border: 2px solid black;
+   
+}
+
+.ellie{
+    border: 2px solid black;
+    height: 200px;
+    width: 600px;
+    border-radius: 100px;
+    margin-top: 190px;
+    display: flex;
+    
+
+    .ellieContext{
+        color:black;
+        padding-top: 20px;
+        padding-left: 20px;
+        
+        height: 100px;
+       
+    }
+
+    
+
+}
+.king{
+    border: 2px solid black;
+    height: 200px;
+    width: 600px;
+    border-radius: 100px;
+    margin-top: 190px;
+}
+
+.charlene{
+    border: 2px solid black;
+    height: 200px;
+    width: 600px;
+    border-radius: 100px;
+    margin-top: 190px;
+}
+.emmy{
+    border: 2px solid black;
+    height: 200px;
+    width: 600px;
+    border-radius: 100px;
+    margin-bottom: 190px;
+}
+
+.fatai{
+    border: 2px solid black;
+    height: 200px;
+    width: 600px;
+    border-radius: 100px;
+}
+
+.unknown{
+    border: 2px solid black;
+    height: 200px;
+    width: 600px;
+    border-radius: 100px;
+}
+
+img{
+    border-radius: 100px;
+}
+.buttontw{
+    width: 50px;
+}
+
+footer{
+    background-color: #feb47b;
+   display: grid;
+   grid-template-columns: 1fr;
+   gr
+    
+    
+}
+
+/*.ellieSocials {
+    display: flex;
+    justify-content: space-between;
+    width: 400PX; 
+    padding: 10px 0;  
+    align-items: last baseline;
+    background-color: red;
+    margin-top: 140px;
+}
+
+.
