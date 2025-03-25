@@ -115,9 +115,7 @@ a {
     border-radius: 100px;
     margin-top: 190px;
 }
-
-.emmy {
-    border: 2px solid black;
+.emmy{
     height: 200px;
     width: 600px;
     border-radius: 100px;
@@ -148,12 +146,14 @@ img {
 
 footer {
     background-color: #feb47b;
-    display: grid;
-    grid-template-columns: 1fr;
-    gr;
+   display: grid;
+   grid-template-columns: 1fr;
+   gr
+    
+    
 }
 
-/*.ellieSocials{
+/*.ellieSocials {
     display: flex;
     justify-content: space-between;
     width: 400PX; 
@@ -162,3 +162,5 @@ footer {
     background-color: red;
     margin-top: 140px;
 }
+
+.
