@@ -1,52 +1,114 @@
-*{
+* {
     margin: 0;
     padding: 0;
-   
-}
-body{
-    height: 100vh;
-    background-color: #feb47b;
+
 }
 
-.maincontainer{
-    
+body {
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+.maincontainer {
+
     height: 80%;
     margin-top: 110px;
-    background-color: aliceblue;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     padding-left: 200px;
     padding-right: 100px;
 
 }
 
-.inner{
-    border: 2px solid black;
-   
-}
 
-.ellie{
+.ellie {
     border: 2px solid black;
     height: 200px;
     width: 600px;
     border-radius: 100px;
     margin-top: 190px;
     display: flex;
-    
 
-    .ellieContext{
-        color:black;
+
+    .ellieContext {
+        color: black;
         padding-top: 20px;
         padding-left: 20px;
-        
+
         height: 100px;
-       
+
     }
 
-    
+
 
 }
-.king{
+
+.king {
+    background-color: white;
+    display: flex;
+    height: 200px;
+    width: 600px;
+    border-radius: 100px;
+    margin-top: 190px;
+}
+
+.king_profile {
+    display: flex;
+    flex-direction: row;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+
+}
+
+.kingContext {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.kingContext p {
+    margin: 5px 0;
+}
+
+._name {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+._role {
+    font-size: 20px;
+    color: #504d4d;
+}
+
+._bio {
+    font-size: 18px;
+    color: #504d4d;
+}
+
+.king_socials {
+    border-radius: 100px;
+    display: flex;
+    width: 300px;
+    gap: 20px;
+}
+
+.king_socials img {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+}
+
+.charlene {
     border: 2px solid black;
     height: 200px;
     width: 600px;
@@ -54,14 +116,7 @@ body{
     margin-top: 190px;
 }
 
-.charlene{
-    border: 2px solid black;
-    height: 200px;
-    width: 600px;
-    border-radius: 100px;
-    margin-top: 190px;
-}
-.emmy{
+.emmy {
     border: 2px solid black;
     height: 200px;
     width: 600px;
@@ -69,37 +124,36 @@ body{
     margin-bottom: 190px;
 }
 
-.fatai{
+.fatai {
     border: 2px solid black;
     height: 200px;
     width: 600px;
     border-radius: 100px;
 }
 
-.unknown{
+.unknown {
     border: 2px solid black;
     height: 200px;
     width: 600px;
     border-radius: 100px;
 }
 
-img{
+img {
     border-radius: 100px;
 }
-.buttontw{
+
+.buttontw {
     width: 50px;
 }
 
-footer{
+footer {
     background-color: #feb47b;
-   display: grid;
-   grid-template-columns: 1fr;
-   gr
-    
-    
+    display: grid;
+    grid-template-columns: 1fr;
+    gr;
 }
 
-/*.ellieSocials {
+/*.ellieSocials{
     display: flex;
     justify-content: space-between;
     width: 400PX; 
@@ -108,5 +162,3 @@ footer{
     background-color: red;
     margin-top: 140px;
 }
-
-.
