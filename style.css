@@ -1,52 +1,47 @@
-*{
+* {
     margin: 0;
     padding: 0;
-   
-}
-body{
-    height: 100vh;
-    background-color: #feb47b;
+
 }
 
-.maincontainer{
-    
+body {
+    height: 100vh;
+}
+
+.maincontainer {
+
     height: 80%;
     margin-top: 110px;
-    background-color: aliceblue;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     padding-left: 200px;
     padding-right: 100px;
 
 }
 
-.inner{
-    /* border: 2px solid black; */
-   background-color: white;
-}
-
-.ellie{
+.ellie {
     border: 2px solid black;
     height: 200px;
     width: 600px;
     border-radius: 100px;
     margin-top: 190px;
     display: flex;
-    
 
-    .ellieContext{
-        color:black;
+
+    .ellieContext {
+        color: black;
         padding-top: 20px;
         padding-left: 20px;
-        
+
         height: 100px;
-       
+
     }
 
-    
+
 
 }
-.king{
+
+.king {
     border: 2px solid black;
     height: 200px;
     width: 600px;
@@ -54,48 +49,50 @@ body{
     margin-top: 190px;
 }
 
-.charlene{
+.charlene {
     border: 2px solid black;
     height: 200px;
     width: 600px;
     border-radius: 100px;
     margin-top: 190px;
 }
-.emmy{
+
+.emmy {
     height: 200px;
     width: 600px;
     border-radius: 100px;
     margin-bottom: 190px;
 }
 
-.fatai{
+.fatai {
     border: 2px solid black;
     height: 200px;
     width: 600px;
     border-radius: 100px;
 }
 
-.unknown{
+.unknown {
     border: 2px solid black;
     height: 200px;
     width: 600px;
     border-radius: 100px;
 }
 
-img{
+img {
     border-radius: 100px;
 }
-.buttontw{
+
+.buttontw {
     width: 50px;
 }
 
-footer{
+footer {
     background-color: #feb47b;
-   display: grid;
-   grid-template-columns: 1fr;
+    display: grid;
+    grid-template-columns: 1fr;
 
-    
-    
+
+
 }
 
 /* ellieSocials {
@@ -108,41 +105,44 @@ footer{
     margin-top: 140px;
 } */
 
-.emmyImage{
+.emmyImage {
     width: 10px;
     height: 10px;
 
-    .emmypic{
+    .emmypic {
         border-radius: 120px;
-        width:220px;
+        width: 220px;
         height: 200px;
-    
+
     }
 }
 
-.emmyContext{
+.emmyContext {
     margin-left: 150px;
-    padding-left: 100px; 
+    padding-left: 100px;
     margin-top: 10px;
-    h3{
+
+    h3 {
         font-size: 25px;
     }
-    h1{
+
+    h1 {
         font-size: 20px;
         color: gray;
         margin-top: 3px;
         margin-bottom: 10px;
     }
-    p{
+
+    p {
         color: grey;
     }
 }
 
 
-.footer{
-    margin-left: 237px ;
+.footer {
+    margin-left: 237px;
 
-    .ft{
+    .ft {
         width: 25px;
         padding-left: 50px;
         margin-left: 10px;
