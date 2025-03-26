@@ -14,7 +14,7 @@ body {
     height: 80%;
     margin-top: 110px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 600px);
     padding-left: 200px;
     padding-right: 100px;
     gap: 10px;
@@ -24,8 +24,11 @@ body {
 @media only screen and (max-width:768px) {
     .maincontainer {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        justify-content: flex-start;
+        grid-template-columns: repeat(1, 400px);
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        padding-top: 100px;
     }
 }
 
@@ -39,7 +42,7 @@ body {
     height: 200px;
     width: 600px;
     border-radius: 100px;
-    margin-top: 190px;
+    /* margin-top: 190px; */
     display: flex;
 
 
@@ -62,7 +65,7 @@ body {
     height: 200px;
     width: 600px;
     border-radius: 100px;
-    margin-top: 190px;
+    /* margin-top: 190px; */
 }
 
 .king_profile {
@@ -126,14 +129,14 @@ a {
     height: 200px;
     width: 600px;
     border-radius: 100px;
-    margin-top: 190px;
+    /* margin-top: 190px; */
 }
 
 .emmy {
     height: 200px;
     width: 600px;
     border-radius: 100px;
-    margin-bottom: 190px;
+    /* margin-bottom: 190px; */
 }
 
 .fatai {
