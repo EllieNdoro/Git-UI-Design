@@ -17,7 +17,16 @@ body {
     grid-template-columns: repeat(3, 1fr);
     padding-left: 200px;
     padding-right: 100px;
+    gap: 10px;
 
+}
+
+@media only screen and (max-width:768px) {
+    .maincontainer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: flex-start;
+    }
 }
 
 .inner {
