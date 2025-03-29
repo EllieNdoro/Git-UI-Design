@@ -12,12 +12,13 @@ body {
 .maincontainer {
 
     height: 80%;
-    margin-top: 110px;
+    margin-top: 210px;
     display: grid;
     grid-template-columns: repeat(3, 600px);
     padding-left: 200px;
     padding-right: 100px;
     gap: 10px;
+    
 
 }
 
@@ -38,25 +39,44 @@ body {
 }
 
 .ellie {
-    border: 2px solid black;
     height: 200px;
     width: 600px;
     border-radius: 100px;
-    /* margin-top: 190px; */
-    display: flex;
 
+}
+.ellieImage {
+    width: 10px;
+    height: 10px;
 
-    .ellieContext {
-        color: black;
-        padding-top: 20px;
-        padding-left: 20px;
-
-        height: 100px;
+    .elliePic {
+        border-radius: 120px;
+        width: 220px;
+        height: 200px;
 
     }
+}
 
 
+.ellieContext {
+    margin-left: 150px;
+    padding-left: 100px;
+    margin-top: 10px;
 
+    h3 {
+        font-size: 25px;
+        color: gray;
+    }
+
+    h1 {
+        font-size: 20px;
+        color: gray;
+        margin-top: 4px;
+        margin-bottom: 10px;
+    }
+
+    p {
+        color: grey;
+    }
 }
 
 .king {
@@ -169,6 +189,7 @@ img {
 
     h3 {
         font-size: 25px;
+        
     }
 
     h1 {
@@ -203,20 +224,7 @@ footer {
 
 }
 
-/*.ellieSocials {
-    display: flex;
-    justify-content: space-between;
-    width: 400PX; 
-    padding: 10px 0;  
-    align-items: last baseline;
-    background-color: red;
-    margin-top: 140px;
-<<<<<<< HEAD
-}
 
-
-=======
-} */
 
 .emmyImage {
     width: 10px;
